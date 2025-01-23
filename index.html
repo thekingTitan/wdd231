@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 Portfolio for Emmanuel Igwe - Web Frontend Development">
+    <meta name="author" content="Emmanuel Igwe">
+    <title>WDD 231 Portfolio - Emmanuel Igwe</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <!-- Scripts with defer -->
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/mypic.jpg" alt="Profile Image" class="profile-img">
+            <h1>Emmanuel Igwe</h1>
+        </div>
+        <button id="menu-button" aria-label="Menu">☰</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/yourusername">GitHub Profile</a></li>
+                <li><a href="https://linkedin.com/in/yourusername">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="coursework">
+            <h2>Course Work</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+
+        <section class="location">
+            <h2>Lagos, Nigeria</h2>
+            <img src="images/tinubu.jpg" alt="Tinubu square" class="location-img">
+            <p class="caption">Tinubu square</p>
+        </section>
+
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="CSE">CSE</button>
+                <button class="filter-btn" data-filter="WDD">WDD</button>
+            </div>
+            <div id="course-container" class="course-grid"></div>
+            <p id="credits-info">Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <span id="copyright"></span>
+            🌺 Emmanuel Igwe 🌺
+            Nigeria
+            
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

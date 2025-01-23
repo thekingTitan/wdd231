@@ -1,0 +1,25 @@
+/* larger.css */
+@media screen and (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .certificate {
+        grid-column: 1 / -1;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
