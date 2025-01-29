@@ -1,0 +1,61 @@
+/* larger.css */
+@media screen and (min-width: 640px) {
+    #menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-wrapper {
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+
+    .developer-info {
+        border-top: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        padding-left: 2rem;
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .member-card {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .member-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+}

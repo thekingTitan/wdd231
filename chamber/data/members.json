@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Desert Oasis Hotel",
+            "address": "123 Sahara Street, Timbuktu",
+            "phone": "223-555-0101",
+            "website": "https://desertoasishotel.com",
+            "image": "images/desert-aosis.jpg",
+            "membershipLevel": 3
+        },
+        {
+            "name": "Sahara Tours & Travel",
+            "address": "45 Market Avenue, Timbuktu",
+            "phone": "223-555-0202",
+            "website": "https://saharatourtravel.com",
+            "image": "images/sahara-tour.jpg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Timbuktu Treasures",
+            "address": "78 Heritage Road, Timbuktu",
+            "phone": "223-555-0303",
+            "website": "https://timbuktutreasures.com",
+            "image": "images/timbuktu.png",
+            "membershipLevel": 3
+        },
+        {
+            "name": "Desert Rose Cafe",
+            "address": "90 Oasis Boulevard, Timbuktu",
+            "phone": "223-555-0404",
+            "website": "https://desertrosecafe.com",
+            "image": "images/desert-rose.jpg",
+            "membershipLevel": 1
+        },
+        {
+            "name": "Manuscript Museum",
+            "address": "34 Scholar Street, Timbuktu",
+            "phone": "223-555-0505",
+            "website": "https://manuscriptmuseum.org",
+            "image": "images/manuscript-lib.jpg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Camel Caravan Express",
+            "address": "56 Transport Lane, Timbuktu",
+            "phone": "223-555-0606",
+            "website": "https://camelcaravan.com",
+            "image": "images/Camel-Caravan-Express.webp",
+            "membershipLevel": 1
+        },
+        {
+            "name": "Solar Solutions Mali",
+            "address": "89 Energy Road, Timbuktu",
+            "phone": "223-555-0707",
+            "website": "https://solarsolutionsmali.com",
+            "image": "images/solar.jpg",
+            "membershipLevel": 3
+        }
+    ]
+}
