@@ -1,0 +1,70 @@
+/* Weather Section Styles */
+#weather-section {
+    background-color: var(--light-bg);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.current-weather {
+    text-align: center;
+    padding: var(--spacing-md);
+    background: white;
+    border-radius: 8px;
+    margin-bottom: var(--spacing-md);
+}
+
+.temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.feels-like {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+#weather-description {
+    text-transform: capitalize;
+    color: #444;
+    margin: var(--spacing-sm) 0;
+}
+
+#forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.forecast-day {
+    background: white;
+    padding: var(--spacing-sm);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.forecast-day h4 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.temp-range {
+    font-size: 0.9rem;
+    margin: var(--spacing-xs) 0;
+}
+
+.forecast-desc {
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.error {
+    background-color: #fee;
+    color: #c00;
+    padding: var(--spacing-md);
+    border-radius: 4px;
+    text-align: center;
+}
