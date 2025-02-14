@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Thank You!</h2>
+    <p>We have received your application. Below are the details you submitted:</p>
+    <div id="submittedData"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Chamber of Commerce</p>
+  </footer>
+
+  <script>
+    // Display submitted data
+    const urlParams = new URLSearchParams(window.location.search);
+    const submittedData = document.getElementById('submittedData');
+
+    submittedData.innerHTML = `
+      <p><strong>First Name:</strong> ${urlParams.get('firstName')}</p>
+      <p><strong>Last Name:</strong> ${urlParams.get('lastName')}</p>
+      <p><strong>Email:</strong> ${urlParams.get('email')}</p>
+      <p><strong>Phone:</strong> ${urlParams.get('phone')}</p>
+      <p><strong>Business Name:</strong> ${urlParams.get('businessName')}</p>
+      <p><strong>Timestamp:</strong> ${urlParams.get('timestamp')}</p>
+    `;
+  </script>
+</body>
+</html>
