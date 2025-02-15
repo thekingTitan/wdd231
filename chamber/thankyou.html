@@ -26,6 +26,9 @@
 
   <footer>
     <p>&copy; 2023 Chamber of Commerce</p>
+    <p>&copy; <span id="current-year"></span> Lagos Chamber</p>
+    <p>Emmanuel Igwe | WDD 231</p>
+    <p>Last Modified: <span id="last-modified"></span></p>
   </footer>
 
   <script>
@@ -41,6 +44,15 @@
       <p><strong>Business Name:</strong> ${urlParams.get('businessName')}</p>
       <p><strong>Timestamp:</strong> ${urlParams.get('timestamp')}</p>
     `;
+    // Update footer with current year and last modified date
+function updateFooter() {
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+  document.getElementById('last-modified').textContent = document.lastModified;
+}
+
+// Call updateFooter when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', updateFooter);
   </script>
+  
 </body>
 </html>

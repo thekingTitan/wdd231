@@ -26,3 +26,12 @@ window.addEventListener('click', (e) => {
     }
   });
 });
+
+// Update footer with current year and last modified date
+function updateFooter() {
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+  document.getElementById('last-modified').textContent = document.lastModified;
+}
+
+// Call updateFooter when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', updateFooter);
