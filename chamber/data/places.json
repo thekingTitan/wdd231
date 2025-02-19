@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Lekki Conservation Centre",
+      "image": "images/lekki-conservation.jpg",
+      "address": "Km 19, Lekki-Epe Expressway, Lagos",
+      "description": "A nature reserve with a canopy walkway, wildlife, and lush greenery."
+    },
+    {
+      "name": "National Museum Lagos",
+      "image": "images/national-museum.jpg",
+      "address": "Onikan, Lagos Island",
+      "description": "A museum showcasing Nigerian art, culture, and history."
+    },
+    {
+      "name": "Tarkwa Bay Beach",
+      "image": "images/tarkwa-bay.jpg",
+      "address": "Tarkwa Bay Island, Lagos",
+      "description": "A serene beach perfect for swimming, surfing, and relaxation."
+    },
+    {
+      "name": "Nike Art Gallery",
+      "image": "images/nike-art.jpg",
+      "address": "5, Elegushi Rd, Lekki Phase 1",
+      "description": "A vibrant art gallery featuring Nigerian artworks and crafts."
+    },
+    {
+      "name": "Freedom Park Lagos",
+      "image": "images/freedom-park-lagos.jpg",
+      "address": "1 Hospital Rd, Lagos Island",
+      "description": "A historical park and cultural center with live performances."
+    },
+    {
+      "name": "Eko Atlantic City",
+      "image": "images/eko-atlantic.jpg.crdownload",
+      "address": "Victoria Island, Lagos",
+      "description": "A futuristic city being developed on reclaimed land."
+    },
+    {
+      "name": "Coconut Beach",
+      "image": "images/coconut-beach.jpg",
+      "address": "Badagry, Lagos",
+      "description": "A scenic beach with coconut trees and calm waters."
+    },
+    {
+      "name": "Kalakuta Museum",
+      "image": "images/kalakuta-museum.jpg",
+      "address": "14A Agege Motor Rd, Lagos",
+      "description": "A museum dedicated to the life and legacy of Fela Kuti."
+    }
+  ]
