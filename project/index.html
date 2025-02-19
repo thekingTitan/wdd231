@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GrowTogether Community Garden - A hub for local gardeners, volunteers, and community members to connect, learn, and grow together.">
+    <title>GrowTogether Community Garden | Home</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="GrowTogether Community Garden">
+    <meta property="og:description" content="Join our thriving community garden - find available plots, volunteer opportunities, and upcoming workshops.">
+    <meta property="og:image" content="images/garden-social-share.jpg">
+    <meta property="og:url" content="https://growtogether-garden.org">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo.svg" alt="GrowTogether Community Garden Logo" class="logo" width="60" height="60">
+                <h1>GrowTogether Community Garden</h1>
+            </div>
+            <nav>
+                <button id="hamburger-menu" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="plots.html">Garden Plots</a></li>
+                    <li><a href="events.html">Events & Workshops</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Growing Community Through Gardening</h2>
+                <p>Join our vibrant community garden where neighbors connect, learn, and grow together.</p>
+                <div class="cta-buttons">
+                    <a href="plots.html" class="btn primary-btn">Get a Plot</a>
+                    <a href="#volunteer-section" class="btn secondary-btn">Volunteer</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/garden-hero.jpg" alt="Thriving community garden with diverse plants and happy gardeners" 
+                     loading="lazy" width="600" height="400">
+            </div>
+        </section>
+
+        <section class="announcement" id="announcement-banner">
+            <!-- Dynamically populated by JavaScript -->
+        </section>
+
+        <section class="garden-stats">
+            <h2>Our Growing Community</h2>
+            <div class="stats-container">
+                <!-- Will be dynamically populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="upcoming-events">
+            <h2>Upcoming Events & Workshops</h2>
+            <div class="events-container" id="events-list">
+                <!-- Will be dynamically populated by JavaScript -->
+            </div>
+            <a href="events.html" class="btn primary-btn view-all">View All Events</a>
+        </section>
+
+        <section class="volunteer" id="volunteer-section">
+            <h2>Volunteer Opportunities</h2>
+            <p>Help our garden thrive by volunteering your time and skills. We have opportunities for all experience levels!</p>
+            <div class="volunteer-opportunities" id="volunteer-opportunities">
+                <!-- Will be dynamically populated by JavaScript -->
+            </div>
+            <button id="volunteer-modal-btn" class="btn primary-btn">Sign Up to Volunteer</button>
+        </section>
+
+        <section class="seasonal-tips">
+            <h2>Seasonal Gardening Tips</h2>
+            <div class="tips-container" id="seasonal-tips">
+                <!-- Will be dynamically populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Volunteer Sign-up Modal -->
+    <div id="volunteer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Volunteer Sign-up Form</h3>
+            <form id="volunteer-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="volunteer-interests">Areas of Interest:</label>
+                    <select id="volunteer-interests" name="volunteer-interests" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="general-maintenance">General Garden Maintenance</option>
+                        <option value="education">Educational Workshops</option>
+                        <option value="special-events">Special Events</option>
+                        <option value="administration">Administrative Support</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="availability">Availability:</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="weekday-morning" name="availability" value="weekday-morning">
+                            <label for="weekday-morning">Weekday Mornings</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="weekday-afternoon" name="availability" value="weekday-afternoon">
+                            <label for="weekday-afternoon">Weekday Afternoons</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="weekend-morning" name="availability" value="weekend-morning">
+                            <label for="weekend-morning">Weekend Mornings</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="weekend-afternoon" name="availability" value="weekend-afternoon">
+                            <label for="weekend-afternoon">Weekend Afternoons</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Gardening Experience:</label>
+                    <textarea id="experience" name="experience" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Form Submission Confirmation Modal -->
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-confirmation">&times;</span>
+            <h3>Thank You for Volunteering!</h3>
+            <div id="form-submission-details">
+                <!-- Will be populated by JavaScript -->
+            </div>
+            <p>A garden coordinator will contact you soon to discuss volunteer opportunities.</p>
+            <button class="btn primary-btn close-confirmation-btn">Close</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>GrowTogether Community Garden</h3>
+                <p>123 Garden Way<br>Anytown, US 12345<br>info@growtogether-garden.org</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plots.html">Garden Plots</a></li>
+                    <li><a href="events.html">Events & Workshops</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook" width="24" height="24"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram" width="24" height="24"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter" width="24" height="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GrowTogether Community Garden. All rights reserved.</p>
+            <p><a href="attributions.html">Resource Attributions</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "gardenStats": [
+    {
+      "title": "Active Plots",
+      "value": 48,
+      "icon": "plot-icon.svg"
+    },
+    {
+      "title": "Garden Members",
+      "value": 124,
+      "icon": "member-icon.svg"
+    },
+    {
+      "title": "Volunteer Hours",
+      "value": 1256,
+      "icon": "volunteer-icon.svg"
+    },
+    {
+      "title": "Pounds Donated",
+      "value": 843,
+      "icon": "donation-icon.svg"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Spring Garden Opening",
+      "description": "Join us for our Spring Garden Opening Ceremony on March 15th at 10:00 AM. Refreshments provided!",
+      "priority": "high",
+      "startDate": "2025-02-15",
+      "endDate": "2025-03-15"
+    },
+    {
+      "title": "Water Conservation Notice",
+      "description": "Due to recent drought conditions, please limit watering to early mornings and evenings only.",
+      "priority": "medium",
+      "startDate": "2025-02-01",
+      "endDate": "2025-03-01"
+    },
+    {
+      "title": "Plot Registration",
+      "description": "Plot registration for the 2025 season is now open! Reserve your spot before February 28th.",
+      "priority": "high",
+      "startDate": "2025-01-15",
+      "endDate": "2025-02-28"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "title": "Spring Planting Workshop",
+      "date": "2025-03-10T10:00:00",
+      "location": "Main Garden Pavilion",
+      "description": "Learn best practices for spring planting, including soil preparation, seed starting, and transplanting.",
+      "image": "spring-planting.jpg",
+      "category": "Workshop"
+    },
+    {
+      "title": "Composting Basics",
+      "date": "2025-03-17T14:00:00",
+      "location": "Compost Area",
+      "description": "Discover how to create and maintain a healthy compost system for your garden plot.",
+      "image": "composting.jpg",
+      "category": "Workshop"
+    },
+    {
+      "title": "Kids Garden Exploration Day",
+      "date": "2025-03-24T09:00:00",
+      "location": "Children's Garden",
+      "description": "A fun-filled day where children can explore the garden, plant seeds, and learn about nature.",
+      "image": "kids-garden.jpg",
+      "category": "Family Event"
+    }
+  ],
+  "volunteerOpportunities": [
+    {
+      "title": "Garden Maintenance",
+      "description": "Help with general garden upkeep including weeding, mulching, and path maintenance.",
+      "timeCommitment": "2-3 hours per week",
+      "skillLevel": "Beginner",
+      "contactPerson": "Maria Chen"
+    },
+    {
+      "title": "Educational Workshop Leader",
+      "description": "Share your gardening knowledge by leading workshops on various gardening topics.",
+      "timeCommitment": "3-4 hours per month",
+      "skillLevel": "Intermediate to Advanced",
+      "contactPerson": "David Washington"
+    },
+    {
+      "title": "Compost Team Member",
+      "description": "Join our composting team to help manage our compost system and educate members.",
+      "timeCommitment": "2 hours per week",
+      "skillLevel": "Beginner to Intermediate",
+      "contactPerson": "Sam Patel"
+    },
+    {
+      "title": "Community Harvest Coordinator",
+      "description": "Coordinate harvesting and donation of excess produce to local food banks.",
+      "timeCommitment": "4-6 hours per month",
+      "skillLevel": "Intermediate",
+      "contactPerson": "Elena Rodriguez"
+    }
+  ],
+  "seasonalTips": [
+    {
+      "title": "Winter Garden Prep",
+      "description": "Prepare your garden for winter by adding mulch, cleaning tools, and planning for spring.",
+      "image": "winter-garden.jpg",
+      "season": "Winter"
+    },
+    {
+      "title": "Spring Soil Health",
+      "description": "Improve your soil health with compost, cover crops, and proper pH balancing.",
+      "image": "spring-soil.jpg",
+      "season": "Spring"
+    },
+    {
+      "title": "Summer Water Conservation",
+      "description": "Conserve water with drip irrigation, mulching, and early morning watering techniques.",
+      "image": "summer-water.jpg",
+      "season": "Summer"
+    }
+  ]
+}

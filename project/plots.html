@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about available garden plots at GrowTogether Community Garden. Find out how to apply and reserve your plot today!">
+    <title>Garden Plots | GrowTogether Community Garden</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo.svg" alt="GrowTogether Community Garden Logo" class="logo" width="60" height="60">
+                <h1>GrowTogether Community Garden</h1>
+            </div>
+            <nav>
+                <button id="hamburger-menu" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plots.html" class="active">Garden Plots</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="form.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="plots-section">
+            <h2>Garden Plots</h2>
+            <p>Reserve your garden plot today and start growing your own fresh produce! Below are the available plots and their details.</p>
+            <div class="plots-container" id="plots-list">
+                <!-- Plots will be dynamically populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>GrowTogether Community Garden</h3>
+                <p>123 Garden Way<br>Anytown, US 12345<br>info@growtogether-garden.org</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plots.html">Garden Plots</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="form.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="images/facebook-icon.svg" alt="Facebook" width="24" height="24"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/instagram-icon.svg" alt="Instagram" width="24" height="24"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/twitter-icon.svg" alt="Twitter" width="24" height="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GrowTogether Community Garden. All rights reserved.</p>
+            <p><a href="attributions.html">Resource Attributions</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/plots.js" type="module"></script>
+</body>
+</html>
